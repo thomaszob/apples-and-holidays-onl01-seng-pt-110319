@@ -100,7 +100,7 @@ holiday_hash.each do |season, holiday|
         new_array << holiday
       end 
   end
-  new_array
+  new_array.flatten
 end
 
 

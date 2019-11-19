@@ -70,7 +70,7 @@ def all_winter_holiday_supplies(holiday_hash)
       }
     end 
   }
-  items_array
+  items_array.flatten
 
 end
 

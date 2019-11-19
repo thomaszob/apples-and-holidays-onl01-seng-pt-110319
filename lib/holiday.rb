@@ -99,6 +99,7 @@ holiday_hash.each do |season, holiday|
       if item.include?("BBQ")
         new_array << day
       end 
+    end
   end
   new_array.flatten
 end
